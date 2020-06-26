@@ -1,0 +1,8 @@
+
+Opened logfile: TLVISA_LOGFILE
+
+Remark: This call to initLogFile was NOT the first call.
+First call had environment name: TLPMLOG.
+
+
+Normal close of logfile: TLVISA_LOGFILE
