@@ -18,17 +18,17 @@
 	</Item>
 	<Item Name="FrontPanel" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="CameraEvents.ctl" Type="VI" URL="../../../ImageAcquisitionLibrary/CameraEvents.ctl"/>
-		<Item Name="CreateUserEvents.vi" Type="VI" URL="../../../ImageAcquisitionLibrary/CreateUserEvents.vi"/>
-		<Item Name="DrawPoints.vi" Type="VI" URL="../../../ImageAcquisitionLibrary/DrawPoints.vi"/>
-		<Item Name="EventsReference.ctl" Type="VI" URL="../../../ImageAcquisitionLibrary/EventsReference.ctl"/>
-		<Item Name="FlagInitialized.vi" Type="VI" URL="../../../ImageAcquisitionLibrary/FlagInitialized.vi"/>
-		<Item Name="InterfaceReferences.ctl" Type="VI" URL="../../../ImageAcquisitionLibrary/InterfaceReferences.ctl"/>
-		<Item Name="ReadCoordinates.vi" Type="VI" URL="../../../ImageAcquisitionLibrary/ReadCoordinates.vi"/>
+		<Item Name="CameraEvents.ctl" Type="VI" URL="../CameraEvents.ctl"/>
+		<Item Name="CreateUserEvents.vi" Type="VI" URL="../CreateUserEvents.vi"/>
+		<Item Name="DrawPoints.vi" Type="VI" URL="../DrawPoints.vi"/>
+		<Item Name="EventsReference.ctl" Type="VI" URL="../EventsReference.ctl"/>
+		<Item Name="FlagInitialized.vi" Type="VI" URL="../FlagInitialized.vi"/>
+		<Item Name="InterfaceReferences.ctl" Type="VI" URL="../InterfaceReferences.ctl"/>
+		<Item Name="ReadCoordinates.vi" Type="VI" URL="../ReadCoordinates.vi"/>
 		<Item Name="StopButton.ctl" Type="VI" URL="../StopButton.ctl"/>
 		<Item Name="AddOverlay.vi" Type="VI" URL="../AddOverlay.vi"/>
 		<Item Name="ReplaceMarkers.vi" Type="VI" URL="../ReplaceMarkers.vi"/>
-		<Item Name="AppendToMarkers.vi" Type="VI" URL="../../../ImageAcquisitionLibrary/AppendToMarkers.vi"/>
+		<Item Name="AppendToMarkers.vi" Type="VI" URL="../AppendToMarkers.vi"/>
 		<Item Name="MarkersArray.ctl" Type="VI" URL="../MarkersArray.ctl"/>
 		<Item Name="Marker.ctl" Type="VI" URL="../Marker.ctl"/>
 		<Item Name="FrontPanel.vi" Type="VI" URL="../FrontPanel.vi"/>

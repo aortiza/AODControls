@@ -35,45 +35,53 @@
 			<Item Name="FindPoint.vi" Type="VI" URL="../FindPoint.vi"/>
 			<Item Name="DeletePoint.vi" Type="VI" URL="../DeletePoint.vi"/>
 			<Item Name="MovePoint.vi" Type="VI" URL="../MovePoint.vi"/>
+			<Item Name="AddPoint.vi" Type="VI" URL="../AddPoint.vi"/>
+			<Item Name="AddMarkers.vi" Type="VI" URL="../AddMarkers.vi"/>
+			<Item Name="ReadCoordinates.vi" Type="VI" URL="../ReadCoordinates.vi"/>
 		</Item>
 		<Item Name="InteractionWithLibraries" Type="Folder">
 			<Item Name="MouseMoveTrackingSwitch.vi" Type="VI" URL="../MouseMoveTrackingSwitch.vi"/>
-			<Item Name="AODMain.vi" Type="VI" URL="../AODControl/AODMain.vi"/>
+		</Item>
+		<Item Name="PowerControl" Type="Folder">
+			<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="../TLPM VXIpnp Error Converter.vi"/>
+			<Item Name="TLPM Close.vi" Type="VI" URL="../TLPM Close.vi"/>
+			<Item Name="TLPM Measure Power.vi" Type="VI" URL="../TLPM Measure Power.vi"/>
+			<Item Name="TLPM Initialize.vi" Type="VI" URL="../TLPM Initialize.vi"/>
+			<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="../TLPM Get Resource Name.vi"/>
+			<Item Name="TLPM Find Resources.vi" Type="VI" URL="../TLPM Find Resources.vi"/>
+			<Item Name="PowerMeter.vi" Type="VI" URL="../PowerMeter.vi"/>
+			<Item Name="PowerMeter_Measurement.vi" Type="VI" URL="../PowerMeter_Measurement.vi"/>
+			<Item Name="ControlVoltage_NICard.vi" Type="VI" URL="../ControlVoltage_NICard.vi"/>
+			<Item Name="VoltageControls.vi" Type="VI" URL="../VoltageControls.vi"/>
+			<Item Name="VoltageQueue_Global.vi" Type="VI" URL="../VoltageQueue_Global.vi"/>
+		</Item>
+		<Item Name="Scripts" Type="Folder">
+			<Item Name="RealTimeStiffness.vi" Type="VI" URL="../RealTimeStiffness.vi"/>
+			<Item Name="LoopScript_ChangeRadiusManyRuns.vi" Type="VI" URL="../CoilsControl/LoopScript_ChangeRadiusManyRuns.vi"/>
+			<Item Name="MonitorRheometer.vi" Type="VI" URL="../CoilsControl/MonitorRheometer.vi"/>
+			<Item Name="LoopScript_EllipticOscillatory.vi" Type="VI" URL="../CoilsControl/LoopScript_EllipticOscillatory.vi"/>
+			<Item Name="Range.vi" Type="VI" URL="../CoilsControl/Range.vi"/>
+			<Item Name="LoopScript_Depinning_External.vi" Type="VI" URL="../CoilsControl/LoopScript_Depinning_External.vi"/>
+			<Item Name="CompressCircle.vi" Type="VI" URL="../CompressCircle.vi"/>
+			<Item Name="ChangeEccentricity.vi" Type="VI" URL="../ChangeEccentricity.vi"/>
+			<Item Name="CompressCircle_Loop.vi" Type="VI" URL="../CompressCircle_Loop.vi"/>
+			<Item Name="LoopScript_ChangeTime.vi" Type="VI" URL="../CoilsControl/LoopScript_ChangeTime.vi"/>
+			<Item Name="LoopScript_ChangeSpeed.vi" Type="VI" URL="../LoopScript_ChangeSpeed.vi"/>
+		</Item>
+		<Item Name="Drawing" Type="Folder">
+			<Item Name="DrawCircle.vi" Type="VI" URL="../DrawCircle.vi"/>
+			<Item Name="DrawHexagonalLattice.vi" Type="VI" URL="../DrawHexagonalLattice.vi"/>
+			<Item Name="DrawEllipseEquispacedPoints.vi" Type="VI" URL="../DrawEllipseEquispacedPoints.vi"/>
+			<Item Name="DrawEllipseDistanceBetweenPoints.vi" Type="VI" URL="../DrawEllipseDistanceBetweenPoints.vi"/>
+			<Item Name="DrawEllipseArcLength.vi" Type="VI" URL="../DrawEllipseArcLength.vi"/>
+			<Item Name="ProgramSequence.vi" Type="VI" URL="../ProgramSequence.vi"/>
+			<Item Name="CircleControls.ctl" Type="VI" URL="../CircleControls.ctl"/>
 		</Item>
 		<Item Name="AODControl.lvlib" Type="Library" URL="../AODControl/AODControl.lvlib"/>
 		<Item Name="MessageQueue.lvlib" Type="Library" URL="../MessageQueue/MessageQueue.lvlib"/>
 		<Item Name="ImageAcquisitionLibrary.lvlib" Type="Library" URL="../ImageAcquisitionProgram/ImageAcquisitionLibrary/ImageAcquisitionLibrary.lvlib"/>
+		<Item Name="WaveformGenerator.lvlib" Type="Library" URL="../CoilsControl/WaveformGenerator.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="ProgramSequence.vi" Type="VI" URL="../ProgramSequence.vi"/>
-		<Item Name="DrawCircle.vi" Type="VI" URL="../DrawCircle.vi"/>
-		<Item Name="DrawHexagonalLattice.vi" Type="VI" URL="../DrawHexagonalLattice.vi"/>
-		<Item Name="CircleControls.ctl" Type="VI" URL="../CircleControls.ctl"/>
-		<Item Name="DrawEllipseEquispacedPoints.vi" Type="VI" URL="../DrawEllipseEquispacedPoints.vi"/>
-		<Item Name="DrawEllipseDistanceBetweenPoints.vi" Type="VI" URL="../DrawEllipseDistanceBetweenPoints.vi"/>
-		<Item Name="DrawEllipseArcLength.vi" Type="VI" URL="../DrawEllipseArcLength.vi"/>
-		<Item Name="AddPoint.vi" Type="VI" URL="../AddPoint.vi"/>
-		<Item Name="ReadCoordinates.vi" Type="VI" URL="../ReadCoordinates.vi"/>
-		<Item Name="AddMarkers.vi" Type="VI" URL="../AddMarkers.vi"/>
-		<Item Name="LoopScript_ChangeTime.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/LoopScript_ChangeTime.vi"/>
-		<Item Name="LoopScript_ChangeSpeed.vi" Type="VI" URL="../LoopScript_ChangeSpeed.vi"/>
-		<Item Name="FrontPanelReferences.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/FrontPanelReferences.vi"/>
-		<Item Name="WaveformGenerator.lvlib" Type="Library" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/WaveformGenerator.lvlib"/>
-		<Item Name="RealTimeStiffness.vi" Type="VI" URL="../RealTimeStiffness.vi"/>
-		<Item Name="LoopScript_ChangeRadiusManyRuns.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/LoopScript_ChangeRadiusManyRuns.vi"/>
-		<Item Name="MonitorRheometer.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/MonitorRheometer.vi"/>
-		<Item Name="LoopScript_EllipticOscillatory.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/LoopScript_EllipticOscillatory.vi"/>
-		<Item Name="get_codecs.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/get_codecs.vi"/>
-		<Item Name="Range.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/Range.vi"/>
-		<Item Name="test_codecs.vi" Type="VI" URL="../test_codecs.vi"/>
-		<Item Name="VoltageControls.vi" Type="VI" URL="../VoltageControls.vi"/>
-		<Item Name="VoltageQueue_Global.vi" Type="VI" URL="../VoltageQueue_Global.vi"/>
-		<Item Name="ControlVoltage_NICard.vi" Type="VI" URL="../ControlVoltage_NICard.vi"/>
-		<Item Name="PowerMeter.vi" Type="VI" URL="../PowerMeter.vi"/>
-		<Item Name="PowerMeter_Measurement.vi" Type="VI" URL="../PowerMeter_Measurement.vi"/>
-		<Item Name="LoopScript_Depinning_External.vi" Type="VI" URL="../../../Dropbox/MyPrograms/LabViewLibraries/CoilsControl/LoopScript_Depinning_External.vi"/>
-		<Item Name="CompressCircle.vi" Type="VI" URL="../CompressCircle.vi"/>
-		<Item Name="ChangeEccentricity.vi" Type="VI" URL="../ChangeEccentricity.vi"/>
-		<Item Name="CompressCircle_Loop.vi" Type="VI" URL="../CompressCircle_Loop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -219,7 +227,6 @@
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
@@ -264,9 +271,11 @@
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
-				<Item Name="NI_AAL_Geometry.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Geometry.lvlib"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="LabVIEWSMTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/smtpClient/LabVIEWSMTPClient.lvlib"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
+				<Item Name="NI_AAL_Geometry.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Geometry.lvlib"/>
+				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -281,12 +290,6 @@
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="../TLPM VXIpnp Error Converter.vi"/>
-			<Item Name="TLPM Close.vi" Type="VI" URL="../TLPM Close.vi"/>
-			<Item Name="TLPM Measure Power.vi" Type="VI" URL="../TLPM Measure Power.vi"/>
-			<Item Name="TLPM Initialize.vi" Type="VI" URL="../TLPM Initialize.vi"/>
-			<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="../TLPM Get Resource Name.vi"/>
-			<Item Name="TLPM Find Resources.vi" Type="VI" URL="../TLPM Find Resources.vi"/>
 			<Item Name="TLPM_64.dll" Type="Document" URL="TLPM_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
