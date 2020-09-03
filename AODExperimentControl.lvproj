@@ -12,70 +12,74 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="TypeDefinitions" Type="Folder">
-			<Item Name="ExperimentControls" Type="VI" URL="../ExperimentControls"/>
-			<Item Name="ExperimentVariables.ctl" Type="VI" URL="../ExperimentVariables.ctl"/>
-			<Item Name="SubVIQueues.ctl" Type="VI" URL="../SubVIQueues.ctl"/>
-			<Item Name="State.ctl" Type="VI" URL="../State.ctl"/>
-			<Item Name="ExitButtonLarge.ctl" Type="VI" URL="../ExitButtonLarge.ctl"/>
+			<Item Name="ExperimentVariables.ctl" Type="VI" URL="../TypeDefinitions/ExperimentVariables.ctl"/>
+			<Item Name="SubVIQueues.ctl" Type="VI" URL="../TypeDefinitions/SubVIQueues.ctl"/>
+			<Item Name="State.ctl" Type="VI" URL="../TypeDefinitions/State.ctl"/>
+			<Item Name="ExitButtonLarge.ctl" Type="VI" URL="../TypeDefinitions/ExitButtonLarge.ctl"/>
+			<Item Name="ExperimentControls.ctl" Type="VI" URL="../TypeDefinitions/ExperimentControls.ctl"/>
 		</Item>
 		<Item Name="SettingsAndCalibration" Type="Folder">
-			<Item Name="StartCalibration.vi" Type="VI" URL="../StartCalibration.vi"/>
-			<Item Name="ProcessCalibrationInputs.vi" Type="VI" URL="../ProcessCalibrationInputs.vi"/>
-			<Item Name="SortCalibrationPoints.vi" Type="VI" URL="../SortCalibrationPoints.vi"/>
-			<Item Name="FindCenter.vi" Type="VI" URL="../FindCenter.vi"/>
-			<Item Name="FindAngle.vi" Type="VI" URL="../FindAngle.vi"/>
-			<Item Name="FindWidth.vi" Type="VI" URL="../FindWidth.vi"/>
-			<Item Name="RescalePixelToAODFrequency.vi" Type="VI" URL="../RescalePixelToAODFrequency.vi"/>
-			<Item Name="RescaleAODFrequencyToPixel.vi" Type="VI" URL="../RescaleAODFrequencyToPixel.vi"/>
-			<Item Name="SaveSettingsAndCalibration.vi" Type="VI" URL="../SaveSettingsAndCalibration.vi"/>
-			<Item Name="LoadSettingsAndCalibration.vi" Type="VI" URL="../LoadSettingsAndCalibration.vi"/>
+			<Item Name="StartCalibration.vi" Type="VI" URL="../SettingsAndCalibration/StartCalibration.vi"/>
+			<Item Name="ProcessCalibrationInputs.vi" Type="VI" URL="../SettingsAndCalibration/ProcessCalibrationInputs.vi"/>
+			<Item Name="SortCalibrationPoints.vi" Type="VI" URL="../SettingsAndCalibration/SortCalibrationPoints.vi"/>
+			<Item Name="FindCenter.vi" Type="VI" URL="../Drawing/FindCenter.vi"/>
+			<Item Name="FindAngle.vi" Type="VI" URL="../SettingsAndCalibration/FindAngle.vi"/>
+			<Item Name="FindWidth.vi" Type="VI" URL="../SettingsAndCalibration/FindWidth.vi"/>
+			<Item Name="RescalePixelToAODFrequency.vi" Type="VI" URL="../SettingsAndCalibration/RescalePixelToAODFrequency.vi"/>
+			<Item Name="RescaleAODFrequencyToPixel.vi" Type="VI" URL="../SettingsAndCalibration/RescaleAODFrequencyToPixel.vi"/>
+			<Item Name="SaveSettingsAndCalibration.vi" Type="VI" URL="../SettingsAndCalibration/SaveSettingsAndCalibration.vi"/>
+			<Item Name="LoadSettingsAndCalibration.vi" Type="VI" URL="../SettingsAndCalibration/LoadSettingsAndCalibration.vi"/>
+			<Item Name="CalibrationAndSettingsStorage.xml" Type="Document" URL="../SettingsAndCalibration/CalibrationAndSettingsStorage.xml"/>
+			<Item Name="Settings.xml" Type="Document" URL="../SettingsAndCalibration/Settings.xml"/>
 		</Item>
 		<Item Name="PointOperations" Type="Folder">
-			<Item Name="FindAndHighlightPoint.vi" Type="VI" URL="../FindAndHighlightPoint.vi"/>
-			<Item Name="FindPoint.vi" Type="VI" URL="../FindPoint.vi"/>
-			<Item Name="DeletePoint.vi" Type="VI" URL="../DeletePoint.vi"/>
-			<Item Name="MovePoint.vi" Type="VI" URL="../MovePoint.vi"/>
-			<Item Name="AddPoint.vi" Type="VI" URL="../AddPoint.vi"/>
-			<Item Name="AddMarkers.vi" Type="VI" URL="../AddMarkers.vi"/>
-			<Item Name="ReadCoordinates.vi" Type="VI" URL="../ReadCoordinates.vi"/>
+			<Item Name="FindAndHighlightPoint.vi" Type="VI" URL="../PointOperations/FindAndHighlightPoint.vi"/>
+			<Item Name="FindPoint.vi" Type="VI" URL="../PointOperations/FindPoint.vi"/>
+			<Item Name="DeletePoint.vi" Type="VI" URL="../PointOperations/DeletePoint.vi"/>
+			<Item Name="MovePoint.vi" Type="VI" URL="../PointOperations/MovePoint.vi"/>
+			<Item Name="AddPoint.vi" Type="VI" URL="../PointOperations/AddPoint.vi"/>
+			<Item Name="AddMarkers.vi" Type="VI" URL="../PointOperations/AddMarkers.vi"/>
+			<Item Name="ReadCoordinates.vi" Type="VI" URL="../PointOperations/ReadCoordinates.vi"/>
 		</Item>
 		<Item Name="InteractionWithLibraries" Type="Folder">
-			<Item Name="MouseMoveTrackingSwitch.vi" Type="VI" URL="../MouseMoveTrackingSwitch.vi"/>
+			<Item Name="MouseMoveTrackingSwitch.vi" Type="VI" URL="../InteractionWithLibraries/MouseMoveTrackingSwitch.vi"/>
 		</Item>
 		<Item Name="PowerControl" Type="Folder">
-			<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="../TLPM VXIpnp Error Converter.vi"/>
-			<Item Name="TLPM Close.vi" Type="VI" URL="../TLPM Close.vi"/>
-			<Item Name="TLPM Measure Power.vi" Type="VI" URL="../TLPM Measure Power.vi"/>
-			<Item Name="TLPM Initialize.vi" Type="VI" URL="../TLPM Initialize.vi"/>
-			<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="../TLPM Get Resource Name.vi"/>
-			<Item Name="TLPM Find Resources.vi" Type="VI" URL="../TLPM Find Resources.vi"/>
-			<Item Name="PowerMeter.vi" Type="VI" URL="../PowerMeter.vi"/>
-			<Item Name="PowerMeter_Measurement.vi" Type="VI" URL="../PowerMeter_Measurement.vi"/>
-			<Item Name="ControlVoltage_NICard.vi" Type="VI" URL="../ControlVoltage_NICard.vi"/>
-			<Item Name="VoltageControls.vi" Type="VI" URL="../VoltageControls.vi"/>
-			<Item Name="VoltageQueue_Global.vi" Type="VI" URL="../VoltageQueue_Global.vi"/>
+			<Item Name="TLPM VXIpnp Error Converter.vi" Type="VI" URL="../PowerControl/TLPM VXIpnp Error Converter.vi"/>
+			<Item Name="TLPM Close.vi" Type="VI" URL="../PowerControl/TLPM Close.vi"/>
+			<Item Name="TLPM Measure Power.vi" Type="VI" URL="../PowerControl/TLPM Measure Power.vi"/>
+			<Item Name="TLPM Initialize.vi" Type="VI" URL="../PowerControl/TLPM Initialize.vi"/>
+			<Item Name="TLPM Get Resource Name.vi" Type="VI" URL="../PowerControl/TLPM Get Resource Name.vi"/>
+			<Item Name="TLPM Find Resources.vi" Type="VI" URL="../PowerControl/TLPM Find Resources.vi"/>
+			<Item Name="PowerMeter.vi" Type="VI" URL="../PowerControl/PowerMeter.vi"/>
+			<Item Name="PowerMeter_Measurement.vi" Type="VI" URL="../PowerControl/PowerMeter_Measurement.vi"/>
+			<Item Name="ControlVoltage_NICard.vi" Type="VI" URL="../PowerControl/ControlVoltage_NICard.vi"/>
+			<Item Name="VoltageControls.vi" Type="VI" URL="../PowerControl/VoltageControls.vi"/>
+			<Item Name="VoltageQueue_Global.vi" Type="VI" URL="../PowerControl/VoltageQueue_Global.vi"/>
+			<Item Name="ControlVoltage.vi" Type="VI" URL="../PowerControl/ControlVoltage.vi"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
-			<Item Name="RealTimeStiffness.vi" Type="VI" URL="../RealTimeStiffness.vi"/>
-			<Item Name="LoopScript_ChangeRadiusManyRuns.vi" Type="VI" URL="../CoilsControl/LoopScript_ChangeRadiusManyRuns.vi"/>
-			<Item Name="MonitorRheometer.vi" Type="VI" URL="../CoilsControl/MonitorRheometer.vi"/>
-			<Item Name="LoopScript_EllipticOscillatory.vi" Type="VI" URL="../CoilsControl/LoopScript_EllipticOscillatory.vi"/>
-			<Item Name="Range.vi" Type="VI" URL="../CoilsControl/Range.vi"/>
-			<Item Name="LoopScript_Depinning_External.vi" Type="VI" URL="../CoilsControl/LoopScript_Depinning_External.vi"/>
-			<Item Name="CompressCircle.vi" Type="VI" URL="../CompressCircle.vi"/>
-			<Item Name="ChangeEccentricity.vi" Type="VI" URL="../ChangeEccentricity.vi"/>
-			<Item Name="CompressCircle_Loop.vi" Type="VI" URL="../CompressCircle_Loop.vi"/>
-			<Item Name="LoopScript_ChangeTime.vi" Type="VI" URL="../CoilsControl/LoopScript_ChangeTime.vi"/>
-			<Item Name="LoopScript_ChangeSpeed.vi" Type="VI" URL="../LoopScript_ChangeSpeed.vi"/>
+			<Item Name="RealTimeStiffness.vi" Type="VI" URL="../Scripts/RealTimeStiffness.vi"/>
+			<Item Name="LoopScript_ChangeRadiusManyRuns.vi" Type="VI" URL="../Scripts/LoopScript_ChangeRadiusManyRuns.vi"/>
+			<Item Name="MonitorRheometer.vi" Type="VI" URL="../Scripts/MonitorRheometer.vi"/>
+			<Item Name="LoopScript_EllipticOscillatory.vi" Type="VI" URL="../Scripts/LoopScript_EllipticOscillatory.vi"/>
+			<Item Name="Range.vi" Type="VI" URL="../Scripts/Range.vi"/>
+			<Item Name="LoopScript_Depinning_External.vi" Type="VI" URL="../Scripts/LoopScript_Depinning_External.vi"/>
+			<Item Name="CompressCircle.vi" Type="VI" URL="../Scripts/CompressCircle.vi"/>
+			<Item Name="ChangeEccentricity.vi" Type="VI" URL="../Scripts/ChangeEccentricity.vi"/>
+			<Item Name="CompressCircle_Loop.vi" Type="VI" URL="../Scripts/CompressCircle_Loop.vi"/>
+			<Item Name="LoopScript_ChangeTime.vi" Type="VI" URL="../Scripts/LoopScript_ChangeTime.vi"/>
+			<Item Name="LoopScript_ChangeSpeed.vi" Type="VI" URL="../Scripts/LoopScript_ChangeSpeed.vi"/>
+			<Item Name="CompressCircle - Kibble-Zurek.vi" Type="VI" URL="../Scripts/CompressCircle - Kibble-Zurek.vi"/>
 		</Item>
 		<Item Name="Drawing" Type="Folder">
-			<Item Name="DrawCircle.vi" Type="VI" URL="../DrawCircle.vi"/>
-			<Item Name="DrawHexagonalLattice.vi" Type="VI" URL="../DrawHexagonalLattice.vi"/>
-			<Item Name="DrawEllipseEquispacedPoints.vi" Type="VI" URL="../DrawEllipseEquispacedPoints.vi"/>
-			<Item Name="DrawEllipseDistanceBetweenPoints.vi" Type="VI" URL="../DrawEllipseDistanceBetweenPoints.vi"/>
-			<Item Name="DrawEllipseArcLength.vi" Type="VI" URL="../DrawEllipseArcLength.vi"/>
-			<Item Name="ProgramSequence.vi" Type="VI" URL="../ProgramSequence.vi"/>
-			<Item Name="CircleControls.ctl" Type="VI" URL="../CircleControls.ctl"/>
+			<Item Name="DrawCircle.vi" Type="VI" URL="../Drawing/DrawCircle.vi"/>
+			<Item Name="DrawHexagonalLattice.vi" Type="VI" URL="../Drawing/DrawHexagonalLattice.vi"/>
+			<Item Name="DrawEllipseEquispacedPoints.vi" Type="VI" URL="../Drawing/DrawEllipseEquispacedPoints.vi"/>
+			<Item Name="DrawEllipseDistanceBetweenPoints.vi" Type="VI" URL="../Drawing/DrawEllipseDistanceBetweenPoints.vi"/>
+			<Item Name="DrawEllipseArcLength.vi" Type="VI" URL="../Drawing/DrawEllipseArcLength.vi"/>
+			<Item Name="ProgramSequence.vi" Type="VI" URL="../Drawing/ProgramSequence.vi"/>
+			<Item Name="CircleControls.ctl" Type="VI" URL="../Drawing/CircleControls.ctl"/>
 		</Item>
 		<Item Name="AODControl.lvlib" Type="Library" URL="../AODControl/AODControl.lvlib"/>
 		<Item Name="MessageQueue.lvlib" Type="Library" URL="../MessageQueue/MessageQueue.lvlib"/>
